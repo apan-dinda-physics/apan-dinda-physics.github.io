@@ -1,43 +1,109 @@
+```html
 <!doctype html>
 <html lang="en">
   <head>
-    <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "name": "Apan Dinda",
-  "alternateName": "Apan",
-  "url": "https://apandindaiith.github.io/"
-}
-</script>
-
-<link rel="icon" type="image/png" href="/favicon.png">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO: Page title and description -->
+    <title>Apan Dinda — Theoretical Physicist</title>
+
     <meta
       name="description"
-      content="Apan Dinda is a PhD student in theoretical physics at IIT Hyderabad researching driven dissipative quantum systems."
+      content="Apan Dinda is a PhD student in theoretical physics at IIT Hyderabad, researching driven dissipative quantum systems, open quantum dynamics, and quantum thermodynamics."
     />
-    <title>Apan Dinda — Theoretical Physicist</title>
+
+    <meta name="author" content="Apan Dinda" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Canonical URL: use your actual preferred live website URL -->
+    <link
+      rel="canonical"
+      href="https://apandindadinda.github.io/Personal-Website/"
+    />
+
+    <!-- Website identity and social sharing metadata -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Apan Dinda" />
+    <meta
+      property="og:title"
+      content="Apan Dinda — Theoretical Physicist"
+    />
+    <meta
+      property="og:description"
+      content="PhD student in theoretical physics at IIT Hyderabad, researching driven dissipative quantum systems."
+    />
+    <meta
+      property="og:url"
+      content="https://apandindadinda.github.io/Personal-Website/"
+    />
+
+    <meta name="twitter:card" content="summary" />
+    <meta
+      name="twitter:title"
+      content="Apan Dinda — Theoretical Physicist"
+    />
+    <meta
+      name="twitter:description"
+      content="PhD student in theoretical physics at IIT Hyderabad, researching driven dissipative quantum systems."
+    />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png" />
+
+    <!-- Structured data: tells search engines the website's name -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Apan Dinda",
+      "alternateName": "Apan",
+      "url": "https://apandindadinda.github.io/Personal-Website/"
+    }
+    </script>
+
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=DM+Serif+Display:ital@0;1&display=swap"
       rel="stylesheet"
     />
+
+    <!-- Stylesheet -->
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
     <nav class="nav">
       <a class="brand serif" href="#top">Apan Dinda</a>
+
       <div class="nav-links">
         <a href="#research">Research</a>
         <a href="#projects">Projects</a>
         <a href="#experience">Experience</a>
       </div>
+
       <div class="nav-actions">
-        <a class="email-link" href="mailto:ph24resch12001@iith.ac.in">Email me ↗</a>
-        <a class="outline-button" href="assets/apan-dinda-cv.pdf" target="_blank" rel="noreferrer">View CV ↗</a>
+        <a
+          class="email-link"
+          href="mailto:ph24resch12001@iith.ac.in"
+        >
+          Email me ↗
+        </a>
+
+        <a
+          class="outline-button"
+          href="assets/apan-dinda-cv.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View CV ↗
+        </a>
       </div>
     </nav>
 
@@ -45,28 +111,54 @@
       <section class="hero container" id="top">
         <aside class="profile-card">
           <div class="portrait">
-            <img src="assets/apan-dinda-profile.jpg" alt="Apan Dinda" />
+            <img
+              src="assets/apan-dinda-profile.jpg"
+              alt="Apan Dinda, PhD student in theoretical physics"
+            />
           </div>
+
           <div class="profile-meta">
             <strong>Department of Physics</strong>
             <span>Indian Institute of Technology Hyderabad</span>
-            <a href="mailto:ph24resch12001@iith.ac.in">Institutional email ↗</a>
+            <a href="mailto:ph24resch12001@iith.ac.in">
+              Institutional email ↗
+            </a>
           </div>
         </aside>
 
         <div class="hero-copy">
-          <p class="eyebrow"><span></span> PhD Student · Theoretical Physics</p>
-          <h1 class="serif">Apan<br /><em>Dinda.</em></h1>
-          <p class="hero-intro">
-            Investigating driven dissipative quantum systems, open quantum dynamics,
-            and quantum thermodynamics.
+          <p class="eyebrow">
+            <span></span> PhD Student · Theoretical Physics
           </p>
+
+          <h1 class="serif">Apan<br /><em>Dinda.</em></h1>
+
+          <p class="hero-intro">
+            Investigating driven dissipative quantum systems,
+            open quantum dynamics, and quantum thermodynamics.
+          </p>
+
           <div class="hero-actions">
-            <a class="primary-button" href="#research">View research →</a>
-            <a class="text-link" href="assets/apan-dinda-cv.pdf" target="_blank" rel="noreferrer">Open full CV ↗</a>
+            <a class="primary-button" href="#research">
+              View research →
+            </a>
+
+            <a
+              class="text-link"
+              href="assets/apan-dinda-cv.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Open full CV ↗
+            </a>
+
             <p>
               Supervised by
-              <a href="https://www.iith.ac.in/phy/archak.p/" target="_blank" rel="noreferrer">
+              <a
+                href="https://www.iith.ac.in/phy/archak.p/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Dr. Archak Purakayastha
               </a>
             </p>
@@ -78,28 +170,43 @@
         <div class="container">
           <header class="section-intro">
             <p class="label">01 · Research focus</p>
-            <h2 class="serif">Understanding open quantum matter, one interaction at a time.</h2>
+            <h2 class="serif">
+              Understanding open quantum matter, one interaction at a time.
+            </h2>
           </header>
+
           <div class="research-grid">
             <article>
               <p class="number serif">01 <span></span></p>
               <h3 class="serif">Open quantum systems</h3>
-              <p>Dynamics, measurement, and control in systems interacting with their environment.</p>
+              <p>
+                Dynamics, measurement, and control in systems interacting
+                with their environment.
+              </p>
             </article>
+
             <article>
               <p class="number serif">02 <span></span></p>
               <h3 class="serif">Quantum thermodynamics</h3>
-              <p>Energy, heat, and information flow at the quantum scale.</p>
+              <p>
+                Energy, heat, and information flow at the quantum scale.
+              </p>
             </article>
+
             <article>
               <p class="number serif">03 <span></span></p>
               <h3 class="serif">Non-equilibrium physics</h3>
-              <p>Driven dissipative systems far from thermal equilibrium.</p>
+              <p>
+                Driven dissipative systems far from thermal equilibrium.
+              </p>
             </article>
+
             <article>
               <p class="number serif">04 <span></span></p>
               <h3 class="serif">Quantum optics</h3>
-              <p>Light–matter interactions, cavity systems, and collisional models.</p>
+              <p>
+                Light–matter interactions, cavity systems, and collisional models.
+              </p>
             </article>
           </div>
         </div>
@@ -110,44 +217,70 @@
           <p class="label">02 · Selected work</p>
           <h2 class="serif">Research projects</h2>
         </header>
+
         <div class="project-list">
           <article class="project">
             <span class="project-number serif">01</span>
+
             <div>
-              <h3 class="serif">Lack of unique steady state in collisional models of cavity–qubit interactions</h3>
+              <h3 class="serif">
+                Lack of unique steady state in collisional models
+                of cavity–qubit interactions
+              </h3>
               <span class="period">Ongoing</span>
             </div>
+
             <p>
-              Studying Jaynes–Cummings qubit–cavity interactions through quantum collisional models,
-              with a mapping to inhomogeneous random walks and deviations from continuous Lindblad dynamics.
+              Studying Jaynes–Cummings qubit–cavity interactions through
+              quantum collisional models, with a mapping to inhomogeneous
+              random walks and deviations from continuous Lindblad dynamics.
             </p>
           </article>
+
           <article class="project">
             <span class="project-number serif">02</span>
+
             <div>
-              <h3 class="serif">Engineering Gain via Quantum Measurements</h3>
+              <h3 class="serif">
+                Engineering Gain via Quantum Measurements
+              </h3>
               <span class="period">2023 — 2024</span>
             </div>
+
             <p>
-              Master’s research on a single-qubit gain medium coupled to a bosonic mode, investigating
-              nonlinear behavior, second-order correlations, and Wigner quasiprobability distributions.
+              Master’s research on a single-qubit gain medium coupled to a
+              bosonic mode, investigating nonlinear behavior, second-order
+              correlations, and Wigner quasiprobability distributions.
             </p>
           </article>
+
           <article class="project">
             <span class="project-number serif">03</span>
+
             <div>
-              <h3 class="serif">Dynamics and thermodynamics of a driven resonant level</h3>
+              <h3 class="serif">
+                Dynamics and thermodynamics of a driven resonant level
+              </h3>
               <span class="period">2023 — 2024</span>
             </div>
+
             <p>
-              A group study of a resonant level coupled to multiple baths, calculating energy current,
-              transferred heat, and efficiency in the wide-band limit.
+              A group study of a resonant level coupled to multiple baths,
+              calculating energy current, transferred heat, and efficiency
+              in the wide-band limit.
             </p>
           </article>
         </div>
+
         <p class="supervisor-note">
           All projects supervised by
-          <a href="https://www.iith.ac.in/phy/archak.p/" target="_blank" rel="noreferrer">Dr. Archak Purakayastha</a>,
+          <a
+            href="https://www.iith.ac.in/phy/archak.p/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Dr. Archak Purakayastha
+          </a>,
           IIT Hyderabad.
         </p>
       </section>
@@ -156,38 +289,62 @@
         <div class="experience container">
           <div class="education">
             <p class="label">03 · Education</p>
+
             <div class="education-list">
               <div>
                 <strong>PhD in Physics</strong>
                 <span>IIT Hyderabad · 2024 — Present · CGPA 9.5</span>
               </div>
+
               <div>
                 <strong>M.Sc. in Physics</strong>
                 <span>IIT Hyderabad · 2022 — 2024 · CGPA 9.23</span>
               </div>
+
               <div>
                 <strong>B.Sc. (Hons.) in Physics</strong>
-                <span>Panskura Banamali College · 2019 — 2022 · CGPA 8.97</span>
+                <span>
+                  Panskura Banamali College · 2019 — 2022 · CGPA 8.97
+                </span>
               </div>
             </div>
           </div>
+
           <div class="recognition">
             <p class="label">Recognition</p>
+
             <div class="award">
-              <strong>2025</strong><h3 class="serif">JST Fellow</h3>
-              <p>Selected for the Young Indian Researchers Invitation Program, funded by the Japan Science and Technology Agency.</p>
+              <strong>2025</strong>
+              <h3 class="serif">JST Fellow</h3>
+              <p>
+                Selected for the Young Indian Researchers Invitation Program,
+                funded by the Japan Science and Technology Agency.
+              </p>
             </div>
+
             <div class="award">
-              <strong>2024</strong><h3 class="serif">CSIR-NET PhD Fellowship</h3>
-              <p>Secured All India Rank 80 among 26,598 candidates.</p>
+              <strong>2024</strong>
+              <h3 class="serif">CSIR-NET PhD Fellowship</h3>
+              <p>
+                Secured All India Rank 80 among 26,598 candidates.
+              </p>
             </div>
+
             <div class="award">
-              <strong>2024</strong><h3 class="serif">Academic Excellence Award</h3>
-              <p>Recognized by IIT Hyderabad for securing the highest CGPA.</p>
+              <strong>2024</strong>
+              <h3 class="serif">Academic Excellence Award</h3>
+              <p>
+                Recognized by IIT Hyderabad for securing the highest CGPA.
+              </p>
             </div>
+
             <div class="award">
-              <strong>2024</strong><h3 class="serif">Chanakya Fellowship</h3>
-              <p>Postgraduate fellowship from I-Hub Quantum Technology Foundation for master’s research.</p>
+              <strong>2024</strong>
+              <h3 class="serif">Chanakya Fellowship</h3>
+              <p>
+                Postgraduate fellowship from I-Hub Quantum Technology
+                Foundation for master’s research.
+              </p>
             </div>
           </div>
         </div>
@@ -196,28 +353,58 @@
       <section class="details container">
         <div>
           <p class="label">Tools</p>
-          <p>Python · NumPy · SciPy · SymPy · Mathematica · MATLAB · LaTeX</p>
+          <p>
+            Python · NumPy · SciPy · SymPy · Mathematica · MATLAB · LaTeX
+          </p>
         </div>
+
         <div>
           <p class="label">Languages</p>
           <p>English · Bengali · Hindi</p>
         </div>
+
         <div class="contact-list">
-          <p class="label">Contact & profiles</p>
-          <a href="mailto:ph24resch12001@iith.ac.in">ph24resch12001@iith.ac.in ↗</a>
-          <a href="mailto:apandinda@gmail.com">apandinda@gmail.com ↗</a>
-          <a href="https://orcid.org/0009-0006-0295-6198" target="_blank" rel="noreferrer">ORCID 0009-0006-0295-6198 ↗</a>
-          <a href="https://www.linkedin.com/in/apan-dinda-405b26235" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+          <p class="label">Contact &amp; profiles</p>
+
+          <a href="mailto:ph24resch12001@iith.ac.in">
+            ph24resch12001@iith.ac.in ↗
+          </a>
+
+          <a href="mailto:apandinda@gmail.com">
+            apandinda@gmail.com ↗
+          </a>
+
+          <a
+            href="https://orcid.org/0009-0006-0295-6198"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            ORCID 0009-0006-0295-6198 ↗
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/apan-dinda-405b26235"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn ↗
+          </a>
         </div>
       </section>
     </main>
 
     <footer>
       <div class="footer-inner container">
-        <div><span>Based at</span><p>IIT Hyderabad · Telangana, India</p></div>
+        <div>
+          <span>Based at</span>
+          <p>IIT Hyderabad · Telangana, India</p>
+        </div>
+
         <p class="footer-message serif">Let’s talk quantum.</p>
+
         <a href="mailto:apandinda@gmail.com">Get in touch ↗</a>
       </div>
     </footer>
   </body>
 </html>
+```
